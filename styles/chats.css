@@ -1,0 +1,102 @@
+.chat-grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 100px;
+  padding-left: 7px;
+}
+.profile{
+  width: 47px;
+  height: 47px;
+  border-radius: 23px;
+  margin-left: 15px;
+  margin-top: 25px;
+  margin-bottom: -20px;
+}
+.chat-view{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: -10px;
+  height: 77px;
+}
+.chat-name{
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.chat-message{
+  font-size: 14px;
+  margin-top: -13px;
+  color: rgb(215, 211, 211);
+}
+.chat-info{
+  margin-left: -15px;
+  position: relative;
+}
+.time{
+  position: absolute;
+  left: 260px;
+  bottom: 30px;
+  font-size: 13px;
+  font-weight: 500;
+  color: rgb(55, 166, 55);
+  font-family: Roboto, Arial;
+  white-space: nowrap;
+}
+.day,
+.day-1{
+  position: absolute;
+  left: 254px;
+  bottom: 30px;
+  font-size: 13px;
+  font-weight: 500;
+  color: rgb(55, 166, 55);
+  font-family: Roboto, Arial;
+  white-space: nowrap;
+}
+.day-1{
+  color: rgba(215, 211, 211, 0.758);
+}
+.date,
+.date-1,
+.date-2{
+  position: absolute;
+  left: 250px;
+  bottom: 30px;
+  font-size: 12px;
+  font-weight: 500;
+  color: rgba(215, 211, 211, 0.758);
+  font-family: Roboto, Arial;
+}
+.date-1,
+.date-2{
+  bottom: 29px;
+}
+.date-2{
+  color: rgb(55, 166, 55);
+}
+.message-count,
+.message-count-1{
+  position: absolute;
+  left: 294px;
+  bottom: 10px;
+  font-size: 12px;
+  background-color: rgb(7, 159, 7);
+  padding: 1px 5px;
+  border-radius: 10px;
+  color: white;
+}
+.message-count-1{
+  bottom: 10px;
+  left: 300px;
+}
+.seen-checkmark,
+.unseen-checkmark{
+  width: 22px;
+  margin-top: -13px;
+  margin-left: -5px;
+}
+.chat-view:hover{
+  background-color: rgba(155, 154, 154, 0.3);
+  border-radius: 7px;
+  margin-right: 10px;
+}

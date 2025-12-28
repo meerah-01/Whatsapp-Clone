@@ -1,0 +1,26 @@
+body{
+  background-color: rgb(50, 50, 50);
+  margin-left: 43px;
+  padding-top: 20px;
+  border-left: 2px solid rgb(39, 39, 39);
+  border-top: 2px solid black;
+  font-family: Roboto, Arial;
+}
+p{
+  color: white;
+  font-family: Roboto, Arial;
+  margin-left: 30px;
+}
+.main{
+  display: flex;
+  flex-direction: row;
+}
+.left-main{
+  width: 380px;
+  padding-top: 1px;
+  border-right: 2px solid rgb(39, 39, 39);
+}
+.right-main{
+  flex: 1;
+  position: fixed;
+}

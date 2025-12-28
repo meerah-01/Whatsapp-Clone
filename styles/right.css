@@ -1,0 +1,29 @@
+.logo{
+  width: 140px;
+  margin-top: 180px;
+  margin-left: 710px;
+}
+.title{
+  margin-left: 694px;
+  margin-top: 3px;
+  font-family: Roboto, Arial;
+  font-size: 18px;
+}
+.about{
+  margin-left: 590px;
+  font-size: 14px;
+  margin-top: -8px;
+  color: rgba(212, 209, 209, 0.758);
+}
+.about-1{
+  margin-left: 570px;
+  font-size: 14px;
+  margin-top: -15px;
+  color: rgba(212, 209, 209, 0.758);
+}
+.buttom{
+  margin-left: 690px;
+  margin-top: 140px;
+  font-size: 14px;
+  color: rgba(212, 209, 209, 0.758);
+}

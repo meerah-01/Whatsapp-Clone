@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whatsapp Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/chats.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+    <link rel="stylesheet" href="styles/right.css" />
+  </head>
+  <body>
+    <div class="topbar"></div>
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/nav.png" />
+        <div class="tooltip-1">Open navigation</div>
+      </div>
+      <div class="upper-sidebar">
+        <div class="sidebar-link-3">
+          <img src="icons/newchat.png" class="messages" />
+          <div class="tooltip">Chats</div>
+          <div class="chat-count">4</div>
+          <div class="chat-show"></div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icons/call.png" />
+          <div class="tooltip">Calls</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icons/status.png" />
+          <div class="tooltip">Status</div>
+          <div class="status-count"></div>
+        </div>
+      </div>
+      <div class="sidebar-link-2">
+        <img src="icons/meta.png" />
+        <div class="tooltip">Meta AI</div>
+      </div>
+      <div class="lower-sidebar">
+        <div class="sidebar-link">
+          <img src="icons/starred.png" />
+          <div class="tooltip-2">Starred Messages</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icons/archived.png" />
+          <div class="tooltip-3">Archived chats</div>
+          <div class="archived-count">3</div>
+        </div>
+        <hr />
+        <div class="sidebar-link">
+          <img src="icons/setting.png" />
+          <div class="tooltip">Settings</div>
+        </div>
+        <div class="sidebar-link">
+          <img src="icons/profile.png" />
+          <div class="tooltip">Profile</div>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="left-main">
+        <div class="header">
+          <div class="left-section">
+            <h2>Chats</h2>
+          </div>
+          <div class="right-section">
+            <div class="new-chat-icon">
+              <img class="newchat-icon" src="icons/new chat-icon.png" />
+              <div class="tooltip">
+                New chat(Ctrl+N) <br />
+                New group(Ctrl+shift+N)
+              </div>
+            </div>
+            <div class="filter-icons">
+              <img class="filter-icon" src="icons/filter-icon.png" alt="" />
+              <div class="tooltip">Filter chats by</div>
+            </div>
+          </div>
+        </div>
+        <div class="search-bar">
+          <input
+            type="text"
+            placeholder="Search or start a new chat"
+            class="search"
+          />
+        </div>
+        <div class="chat-grid">
+          <div class="chat-view">
+            <div class="profile-picture">
+              <img src="profile pictures/profile-1.webp" class="profile" />
+            </div>
+            <div class="chat-info">
+              <p class="chat-name">Sherlock</p>
+              <p class="chat-message">I will see you soon</p>
+              <div class="time">9:20 AM</div>
+              <div class="message-count">1</div>
+            </div>
+          </div>
+          <div class="chat-view">
+            <div class="profile-picture">
+              <img src="profile pictures/profile-2.webp" class="profile" />
+            </div>
+            <div class="chat-info">
+              <p class="chat-name">Benedict</p>
+              <p class="chat-message">Hello</p>
+              <div class="time">8:50 AM</div>
+              <div class="message-count">1</div>
+            </div>
+          </div>
+          <div class="chat-view">
+            <div class="profile-picture">
+              <img src="profile pictures/profile-3.webp" class="profile" />
+            </div>
+            <div class="chat-info">
+              <p class="chat-name">Florence</p>
+              <p class="chat-message">
+                <img src="icons/unseen icon.png" class="unseen-checkmark" />Our
+                assignment is due tomorrow
+              </p>
+              <div class="day-1">Yesterday</div>
+            </div>
+          </div>
+          <div class="chat-view">
+            <div class="profile-picture">
+              <img src="profile pictures/profile-5.webp" class="profile" />
+            </div>
+            <div class="chat-info">
+              <p class="chat-name">Charlotte</p>
+              <p class="chat-message">Are you avoiding me?</p>
+              <div class="day">Yesterday</div>
+              <div class="message-count">1</div>
+            </div>
+          </div>
+          <div class="chat-view">
+            <div class="profile-picture">
+              <img src="profile pictures/profile-9.jpeg" class="profile" />
+            </div>
+            <div class="chat-info">
+              <p class="chat-name">Eloise</p>
+              <p class="chat-message">
+                <img src="icons/seen icon.png" class="seen-checkmark" />Okay
+              </p>
+              <div class="date">15/10/2024</div>
+            </div>
+          </div>
+          <div class="chat-view">
+            <div class="profile-picture">
+              <img src="profile pictures/profile-12.jpeg" class="profile" />
+            </div>
+            <div class="chat-info">
+              <p class="chat-name">Mrs Robson</p>
+              <p class="chat-message">
+                <img src="icons/unseen icon.png" class="unseen-checkmark" />Good
+                Morning ma
+              </p>
+              <div class="date">15/10/2024</div>
+            </div>
+          </div>
+          <div class="chat-view">
+            <div class="profile-picture">
+              <img src="profile pictures/profile-8.jpeg" class="profile" />
+            </div>
+            <div class="chat-info">
+              <p class="chat-name">Mum</p>
+              <p class="chat-message">
+                <img src="icons/seen icon.png" class="seen-checkmark" />Yes ma
+              </p>
+              <div class="date-1">01/10/2024</div>
+            </div>
+          </div>
+          <div class="chat-view">
+            <div class="profile-picture">
+              <img src="profile pictures/profile-10.webp" class="profile" />
+            </div>
+            <div class="chat-info">
+              <p class="chat-name">Bianaca</p>
+              <p class="chat-message">Later</p>
+              <div class="date-2">20/09/2024</div>
+              <div class="message-count-1">1</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right-main">
+        <img src="icons/whatsapp-logo.png" class="logo" />
+        <p class="title">Whatsapp for Windows</p>
+        <p class="about">
+          Send and receive messages without keeping your phone online
+        </p>
+        <p class="about-1">
+          Use Whatsapp on up to 4 linked devices and 1 phone at the same time
+        </p>
+        <p class="buttom">
+          <img src="icons/lock icon.png" />End-to-end encrypted
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
